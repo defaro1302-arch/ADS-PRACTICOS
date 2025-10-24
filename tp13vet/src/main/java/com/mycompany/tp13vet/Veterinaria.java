@@ -19,19 +19,6 @@ class Veterinaria {
             a.mostrarInfo();
             a.hacerSonido();
 
-            // Polimorfismo + downcasting para acceder a métodos propios
-            if (a instanceof Dog) {
-                ((Dog) a).correr();
-            } else if (a instanceof Cat) {
-                ((Cat) a).arañar();
-            } else if (a instanceof Bird) {
-                ((Bird) a).volar();
-            } else if (a instanceof Fish) {
-                ((Fish) a).nadar();
-            }
-
-            System.out.println(); // Salto de línea
-        }
     }
 
     
